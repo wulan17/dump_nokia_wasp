@@ -1,0 +1,13 @@
+# Huaqin modify for ACORN-1559 by lijingang at 2019/03/29 start
+ro.config.power_off_lock=true
+# Huaqin modify for ACORN-1559 by lijingang at 2019/03/29 end
+# Huaqin add for ACORN-1554/ACORN-1555 by lijingang at 2019/04/02 start
+ro.config.swipe_up_to_switch_apps=true
+# Huaqin add for ACORN-1554/ACORN-1555 by lijingang at 2019/04/02 end
+#Huaqin add for ACORN-1560 by yuanfang at 2019/4/1 start
+ro.config.gesture.quick_call=true
+#Huaqin add for ACORN-1560 by yuanfang at 2019/4/1 end
+#Huaqin add for ACORN-1456 by yuanfang at 2019/4/3 start
+ro.config.shutdown_animation=true
+#Huaqin add for ACORN-1456 by yuanfang at 2019/4/3 end
+ro.bootimage.build.fingerprint=Nokia/Wasp_00WW/WSP_sprout:9/PPR1.180610.011/00WW_1_280:user/release-keys

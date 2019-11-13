@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactoryTest>
+
+   <TestItem
+        name="ItemVersion"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/2/22 start-->
+    <TestItem
+        name="ItemGTPSensor"
+        auto="false"
+        enable="false"
+        full="true"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/2/22 end-->
+    <TestItem
+        name="ItemFingerPrint"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemALSPS"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemLsensor"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemPsensor"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSarsensor"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemNfc"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemTouch"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemLcd"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemBackLight"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemKeyLight"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemReceiver"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSmartPA"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemMainSpeaker"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSubSpeaker"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemKeyVibrator"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemGravitySensorCalibration"
+        auto="false"
+        enable="false"
+        full="true"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemGravitySensor"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemMagneticSensor"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemGyroscope"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemMainMic"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemRefMic"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemHeadset"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemFM"
+        auto="false"
+        enable="false"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemHall"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemOTG"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/2/22 start-->
+    <TestItem
+        name="ItemBatteryAndLED"
+        auto="false"
+        enable="false"
+        full="true"
+        kb="true"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/2/22 end-->
+    <TestItem
+        name="ItemReverseCharge"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraAuto"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraBack"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraFront"
+        auto="false"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraExt"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraExt2"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemCameraFrontExt"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemChargeLed"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSim"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemSD"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemWifi"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemBluetooth"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="true" >
+    </TestItem>
+    <TestItem
+        name="ItemGPS"
+        auto="true"
+        enable="true"
+        full="true"
+        kb="false"
+        pcba="true"
+        ub="false" >
+    </TestItem>
+
+    <TestItem
+        name="ItemSDTwoInOne"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemRTC"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSimTray"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false" >
+    </TestItem>
+    <TestItem
+        name="ItemSimHotPlug"
+        auto="false"
+        enable="false"
+        full="false"
+        kb="false"
+        pcba="false"
+        ub="false">
+    </TestItem>
+
+    <!-- For FM -->
+    <fmconfig
+        name="FMRadio.CH1"
+        value="875" />
+    <fmconfig
+        name="FMRadio.CH2"
+        value="1043" />
+    <fmconfig
+        name="FMRadio.CH3"
+        value="980" />
+    <fmconfig
+        name="FMRadio.CH3"
+        value="1080" />
+
+    <!-- For FM -->
+    <keypad
+        name="KEYCODE_VOLUME_UP"
+        enable="true" />
+    <keypad
+        name="KEYCODE_VOLUME_DOWN"
+        enable="true" />
+    <keypad
+        name="KEYCODE_GA_BUTTON"
+        enable="true" />
+    <keypad
+        name="KEYCODE_MENU"
+        enable="true" />
+    <keypad
+        name="KEYCODE_HOME"
+        enable="true" />
+    <keypad
+        name="KEYCODE_BACK"
+        enable="true" />
+    <keypad
+        name="KEYCODE_POWER"
+        enable="true" />
+</FactoryTest>

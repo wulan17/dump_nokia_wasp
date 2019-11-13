@@ -1,0 +1,9 @@
+authentic:
+  mean: 0.1979152621307877
+  std: 0.07952702930253318
+imposter:
+  mean: 0.9459965153120294
+  std: 0.17103064198162268
+score_limit:
+  limit: -0.008447981895454803
+  lower: true

@@ -1,0 +1,17 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks
+
+#Huaqin add for ACORN-1456 by yuanfang at 2019/4/3 start
+service bootanim_shut /system/bin/bootanimation shut
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks
+#Huaqin add for ACORN-1456 by yuanfang at 2019/4/3 end

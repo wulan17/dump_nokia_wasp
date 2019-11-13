@@ -1,0 +1,17 @@
+version: 1.14.0
+mode: FACE
+type: face-liveness
+cascades:
+- primary_cascade-2.0.0.xml
+- secondary_cascade-2.0.0.xml
+face_aligner: face_aligner-3.0.0.jcq
+liveness_ensemble: liveness_ensemble-1.2.3.jcq
+spoof_detect_nn: spoof_detect_nn-1.2.0.jcq
+motion_liveness_nn: motion_liveness_nn-0.0.2.jcq
+eyes_open_detector: eyes_open_detector-1.0.2.jcq
+eyes_open_levels:
+- 1.00658798218
+- 2.12829399109
+- 3.25
+- 10.492947500000001
+- 17.735895000000003

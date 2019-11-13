@@ -1,0 +1,1 @@
+/dev/block/platform/bootdevice/by-name/elabel /elabel ext4 ro,noatime,nosuid,nodev,noauto_da_alloc,discard wait,formattable,slotselect

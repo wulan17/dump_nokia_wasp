@@ -1,0 +1,5 @@
+service faceunlockservice /system/bin/faceunlockservice
+  class core
+  user system
+  group system
+#writepid /dev/cpuset/system/tasks

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactoryTest>
+
+
+<!--all: used for factory smmi autotest ...-->
+    <!--factory config data : boolean , string , int-->
+    <!--Battery test-->
+    <factorycfg  name="hq_battery_current_min_pass_value" value="400" type="int"/>
+    <!--Huaqin add for ACORN-1162 by zhouming at 2019/2/12 start-->
+    <factorycfg  name="hq_battery_current_min_pcba_pass_value" value="400" type="int"/>
+    <!--Huaqin add for ACORN-1162 by zhouming at 2019/2/12 end-->
+    <factorycfg  name="hq_battery_voltage_path" value="/sys/devices/platform/charger/ADC_Charger_Voltage" type="string"/>
+    <factorycfg  name="hq_battery_voltage_unit_mv" value="true" type="boolean"/>
+    <factorycfg  name="hq_battery_current_path" value="/sys/class/power_supply/battery/current_now" type="string"/>
+    <factorycfg  name="hq_support_quick_start_mtklog" value="true" type="boolean"/>
+
+    <!--BackLight test-->
+    <!--Huaqin add for ACORN-1477 zhouming at 2019/3/6 start-->
+    <factorycfg  name="hq_backlight_min_value" value="3" type="int"/>
+    <factorycfg  name="hq_backlight_max_value" value="255" type="int"/>
+    <!--Huaqin add for ACORN-1477 zhouming at 2019/3/6 end-->
+
+    <!--TP test-->
+    <factorycfg  name="hq_test_tp_rowdata_path" value="/sys/devices/platform/tp_wake_switch/factory_check" type="string"/>
+    <!--Lsensor test-->
+    <factorycfg  name="hq_open_save_lsensor_noice" value="false" type="boolean"/>
+    <factorycfg  name="hq_switch_psensor_value" value="false" type="boolean"/>
+    <!--Psensor test-->
+    <factorycfg  name="hq_get_psensor_noice_way_by_path" value="true" type="boolean"/> <!--  path or prop -->
+    <factorycfg  name="hq_get_psensor_noice_prop" value="persist.vendor.sys.psensor" type="string"/>
+    <factorycfg  name="hq_get_psensor_noice_path" value="/sys/devices/platform/HardwareInfo/alsps" type="string"/>
+    <factorycfg  name="hq_get_psensor_cali_data_path" value="/sys/class/input/event4/device/ps_canc" type="string"/>
+    <factorycfg  name="hq_psensor_noice_inf_max_value" value="10000000" type="int"/>
+    <factorycfg  name="hq_psensor_noice_prox_max_value" value="10000000" type="int"/>
+    <factorycfg  name="hq_psensor_set_save_noice_value" value="0" type="int"/>
+    <factorycfg  name="hq_psensor_support_save_offset_value" value="false" type="boolean"/>
+    <factorycfg  name="hq_psensor_close_noise_value_judge" value="true" type="boolean"/>
+    <!--FingerPrint test-->
+    <factorycfg name="hq_finger_test_goodix" value="com.goodix.gftest;com.goodix.gftest.HomeActivity" type="string"/>
+    <factorycfg name="hq_finger_test_cdfinger" value="com.cdfinger.factorytest;com.cdfinger.factorytest.FactoryTestActivity" type="string"/>
+    <factorycfg name="hq_finger_test_cdfinger_998eas" value="com.cdfinger.factorytest;com.cdfinger.factorytest.FactoryTestActivity" type="string"/>
+    <factorycfg name="hq_finger_test_fpc" value="com.fingerprints.sensortesttool;com.fingerprints.sensortesttool.activities.MainActivity" type="string"/>
+    <factorycfg name="hq_finger_test_silead" value="" type="string"/> <!--need change test way -->
+
+    <!--Mic test-->
+    <factorycfg  name="hq_mainmic_pass_value" value="18000" type="int"/>
+    <factorycfg  name="hq_submic_pass_value" value="18000" type="int"/>
+    <factorycfg  name="hq_submic_pcba_pass_value" value="13000" type="int"/>
+    <!--Headset test-->
+    <factorycfg  name="hq_headset_mic_pass_value" value="13000" type="int"/>
+    <!--MainCamera test-->
+    <factorycfg  name="hq_camera_width_default_value" value="1920" type="int"/>
+    <factorycfg  name="hq_camera_height_default_value" value="1080" type="int"/>
+    <factorycfg  name="hq_camera_size" value="2" type="int"/>
+    <factorycfg  name="hq_maincamera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_maincamera_device_id" value="0" type="int"/>
+    <factorycfg  name="hq_maincamera_support_flash" value="1" type="int"/>
+    <!--RearCamera test-->
+    <factorycfg  name="hq_rearcamera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_rearcamera_device_id" value="2" type="int"/>
+    <factorycfg  name="hq_support_double_backcamera" value="false" type="boolean"/>
+    <!--FrontCamera test-->
+    <factorycfg  name="hq_frontcamera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_frontcamera_device_id" value="1" type="int"/>
+    <factorycfg  name="hq_frontcamera_support_flash" value="0" type="int"/>
+    <!--Rear2Camera test-->
+    <factorycfg  name="hq_rear2camera_rotate" value="90" type="int"/>
+    <factorycfg  name="hq_rear2camera_device_id" value="3" type="int"/>
+    <!-- huaqin add for set brightness max when test camera by zhangjingzhi at 20190303 start -->
+    <factorycfg  name="hq_camera_support_max_brightness" value="true" type="boolean"/>
+    <!-- huaqin add for set brightness max when test camera by zhangjingzhi at 20190303 end -->
+    <!-- Huaqin add by zhangjingzhi for factory test activity brightness at 20190313 start -->
+    <factorycfg  name="hq_factroy_activity_brightness_value" value="120" type="int"/>
+    <factorycfg  name="hq_support_factroy_activity_brightness" value="true" type="boolean"/>
+    <!-- Huaqin add by zhangjingzhi for factory test activity brightness at 20190313 end -->
+
+    <!--Keypad test-->
+    <factorycfg  name="hq_support_ga_keycode_function" value="288" type="int"/>
+
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/3/8 start-->
+    <!--shipping mmi test-->
+    <bootcompletedfactorycfg  name="hq_shipping_mmitest" value="true" type="boolean"/>
+    <!--mmi3 test-->
+    <bootcompletedfactorycfg  name="hq_support_mmi3test" value="true" type="boolean"/>
+    <!--Huaqin add for ACORN-1381 by zhouming at 2019/3/8 end-->
+<!--all-->
+
+</FactoryTest>
